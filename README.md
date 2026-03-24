@@ -118,18 +118,20 @@ pip install -r requirements.txt
 3. Run the Streamlit app
 streamlit run app.py
 
-🎯 Key Learning Outcomes
+
+##🎯 Key Learning Outcomes
 Handling highly imbalanced datasets
 Understanding precision vs recall trade-offs
 Applying ROC-AUC for model evaluation
 Implementing threshold tuning for business decisions
 Building and deploying ML applications
 
-👨‍💻 Author
-Farhan Tanvir
 
-🚀 Future Improvements
+##🚀 Future Improvements
 Improve model using advanced algorithms (XGBoost, LightGBM)
 Build user-friendly input system (non-PCA features)
 Deploy application on cloud (AWS / Streamlit Cloud)
 Integrate real-time transaction monitoring
+
+##👨‍💻 Author
+Farhan Tanvir
