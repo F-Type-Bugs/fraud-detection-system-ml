@@ -82,16 +82,12 @@ The dataset uses **PCA-transformed features (V1–V28)**, which means:
 ---
 
 ## 📁 Project Structure
-
-
-fraud-detection-system-ml/
-│
-├── train_model.py
-├── app.py
-├── fraud_model.pkl
-├── fraud_feature_columns.pkl
-├── requirements.txt
-└── README.md
+`fraud-detection-system-ml/`
+- 📄 `train_model.py` — *Model training & SMOTE logic*
+- 📄 `app.py` — *Streamlit Web Interface*
+- 📦 `fraud_model.pkl` — *Trained Logistic Regression model*
+- 📦 `columns.pkl` — *List of feature columns*
+- 📄 `requirements.txt` — *Library dependencies*
 
 
 ---
@@ -109,7 +105,7 @@ Dataset used: Credit Card Fraud Detection
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/fraud-detection-system-ml.git
+1. git clone https://github.com/YOUR-USERNAME/fraud-detection-system-ml.git
 cd fraud-detection-system-ml
 
 2. Install dependencies
@@ -117,21 +113,22 @@ pip install -r requirements.txt
 
 3. Run the Streamlit app
 streamlit run app.py
+```
+
+# 🎯 Key Learning Outcomes
+- Handling highly imbalanced datasets.
+- Understanding precision vs recall trade-offs.
+- Applying ROC-AUC for model evaluation.
+- Implementing threshold tuning for business decisions.
+- Building and deploying ML applications.
 
 
-##🎯 Key Learning Outcomes
-Handling highly imbalanced datasets
-Understanding precision vs recall trade-offs
-Applying ROC-AUC for model evaluation
-Implementing threshold tuning for business decisions
-Building and deploying ML applications
+# 🚀 Future Improvements
+- Improve model using advanced algorithms (XGBoost, LightGBM).
+- Build user-friendly input system (non-PCA features).
+- Deploy application on cloud (AWS / Streamlit Cloud).
+- Integrate real-time transaction monitoring.
 
-
-##🚀 Future Improvements
-Improve model using advanced algorithms (XGBoost, LightGBM)
-Build user-friendly input system (non-PCA features)
-Deploy application on cloud (AWS / Streamlit Cloud)
-Integrate real-time transaction monitoring
-
-##👨‍💻 Author
-Farhan Tanvir
+# 👨‍💻 Author
+## Farhan Tanvir Machine Learning Enthusiast
+### Doha, Qatar - [Connect with me on LinkedIn](https://www.linkedin.com/in/farhan-tanvir-rafi/)
